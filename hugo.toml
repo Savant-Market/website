@@ -1,0 +1,63 @@
+baseURL = 'http://www.savant.market/'
+languageCode = 'en-us'
+title = 'Savant Market'
+theme = 'hugo-coder'
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Savant Market"
+  info = "Creating free and fair markets on-chain"
+  description = "Creating free and fair markets on-chain"
+  #keywords = ""
+  #avatarurl = ""
+  #gravatar = "john.doe@example.com"
+
+  #faviconSVG = ""
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "dark"
+  hidecolorschemetoggle = true
+
+  customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/Savant-Market"
+[[params.social]]
+  name = "Telegram"
+  icon = "fa fa-telegram fa-2x"
+  weight = 2
+  url = "https://t.me/karan_karia/"
+
+# Menu links
+[[menu.main]]
+  name = "Litepaper"
+  weight = 1
+  url = "https://dpm-1.gitbook.io/decentralized-prediction-market/"
+[[menu.main]]
+  name = "Who Are We?"
+  weight = 2
+  url = "who_are_we/"

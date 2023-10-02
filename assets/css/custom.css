@@ -1,0 +1,51 @@
+.avatar img {
+  border-radius: 0;
+}
+
+body {
+  font-family: monospace;
+}
+
+.person {
+  padding: 2rem 0 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  align-content: center;
+  align-items: center;
+}
+
+.person .person-image {
+  width: 25rem;
+  margin-right: 10rem;
+}
+
+.person .person-info {
+  width: 50rem;
+}
+
+@media only screen and (max-width: 890px) and (min-width: 400px) {
+  .person {
+    margin-bottom: 5rem;
+  }
+
+  .person .person-image img {
+    height: 20rem;
+  }
+
+.person .person-info {
+  width: 35rem;
+}
+}
+
+@media only screen and (max-width: 400px) {
+  .person {
+    margin-bottom: 5rem;
+  }
+
+  .person .person-image img {
+    width: 100%;
+  }
+}
