@@ -35,9 +35,9 @@ body {
     height: 20rem;
   }
 
-.person .person-info {
-  width: 35rem;
-}
+  .person .person-info {
+    width: 35rem;
+  }
 }
 
 @media only screen and (max-width: 400px) {
